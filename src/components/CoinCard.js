@@ -82,7 +82,6 @@ const {
 } = styles;
 
 const CoinCard = ({ symbol, coin_name, price_usd, percent_change_24h, percent_change_7d }) => {
-    console.log(images[symbol]);
     return (
         <View style={container}>
 
